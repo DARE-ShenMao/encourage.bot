@@ -23,7 +23,11 @@ while True:
       feelings_list.append("tired")
       encouragement_list.append("you are stronger than you think")
       counter += 1
-
+    if each_word == "angry":
+      feelings_list.append("angry")
+      encouragement_list.append("Don't be angry! It is not good for your health!!! Be HAPPY!")
+      counter += 1
+      
   if counter == 0:
     
       output = "Sorry I don't really understand. Please use different words?"
